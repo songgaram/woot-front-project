@@ -7,5 +7,19 @@ export const MainContainer = styled.div`
 
 export const MainContent = styled.main`
   width: 100%;
-  background-color: gray;
+`;
+
+export const MainHeaderContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: ${({ theme }) => theme.fontSizes.lg};
+  color: ${({ theme }) => theme.colors.primary};
+
+  p {
+    font-size: ${({ theme }) => theme.fontSizes.base};
+    color: ${({ theme }) => theme.colors.deepblue};
+  }
 `;
