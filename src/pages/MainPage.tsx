@@ -1,7 +1,16 @@
 import React from 'react';
+import { MainContainer, MainContent } from './MainPage.style';
+import Header from 'components/header/Header';
 
 const MainPage = () => {
-  return <div>메인페이지 입니다.</div>;
+  return (
+    <>
+      <MainContainer>
+        <Header />
+        <MainContent>메인</MainContent>
+      </MainContainer>
+    </>
+  );
 };
 
 export default MainPage;
