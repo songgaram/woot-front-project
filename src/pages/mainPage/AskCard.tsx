@@ -22,12 +22,13 @@ export const AskCardContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  margin: 3% 0;
   cursor: pointer;
 `;
 
 export const AskTitle = styled.span`
   font-weight: 600;
+  margin-left: 10px;
   color: ${({ theme }) => theme.colors.primary};
 `;
 export const Comment = styled.div`

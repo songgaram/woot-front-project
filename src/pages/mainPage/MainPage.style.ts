@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const MainContainer = styled.div`
   width: 500px;
   border: 1px solid;
+  padding: 1%;
 `;
 
 export const MainContent = styled.main`
@@ -13,7 +14,6 @@ export const MainHeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
   font-weight: 600;
   font-size: ${({ theme }) => theme.fontSizes.lg};
   color: ${({ theme }) => theme.colors.primary};

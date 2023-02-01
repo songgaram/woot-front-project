@@ -15,7 +15,6 @@ const Button = styled.button<{ colorCode: string }>`
   border-radius: 1rem;
   cursor: pointer;
   padding: 0.3rem 0.5rem;
-  margin: 5px;
   background-color: ${(props) => props.theme.colors[props.colorCode]};
   color: ${({ theme }) => theme.colors.white};
 `;

@@ -4,7 +4,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  margin: 3% 0 7% 0;
 `;
 
 export const HeaderContent = styled.div``;
