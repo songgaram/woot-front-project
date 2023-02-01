@@ -7,7 +7,7 @@ const AllAskList = () => {
   const [askData, setAskData] = React.useState<askTypes[]>([]);
 
   React.useEffect(() => {
-    const { askList }: askListTypes = JSON.parse(localStorage.getItem('askList') || '{}');
+    const { askList }: askListTypes = JSON.parse(localStorage.getItem('askData') || '{}');
     setAskData(askList.slice(0, 2));
   }, []);
 

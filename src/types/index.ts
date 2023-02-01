@@ -8,7 +8,7 @@ export interface askTypes {
   askContent: string;
   authorMbti: string;
   askMbti: string;
-  Like: number;
+  like: number;
   comments: commentTypes[];
 }
 

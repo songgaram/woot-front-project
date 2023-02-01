@@ -13,11 +13,11 @@ const MainPage = () => {
   const [enfpAsk, setEnfpAsk] = React.useState<askTypes[]>([]);
 
   React.useEffect(() => {
-    localStorage.setItem('askList', JSON.stringify(db));
+    localStorage.setItem('askData', JSON.stringify(db));
   }, []);
 
   React.useEffect(() => {
-    const { askList }: askListTypes = JSON.parse(localStorage.getItem('askList') || '{}');
+    const { askList }: askListTypes = JSON.parse(localStorage.getItem('askData') || '{}');
     const enfpAskList = getEnfpAskList(askList);
     setEnfpAsk(enfpAskList);
     setAskData(askList.slice(0, 2));
