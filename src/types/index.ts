@@ -5,7 +5,6 @@ export interface askListTypes {
 export interface askTypes {
   askId: number;
   authorId: string;
-  askTitle: string;
   askContent: string;
   authorMbti: string;
   askMbti: string;

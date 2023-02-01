@@ -10,12 +10,12 @@ const AskCard = ({
   askData: askTypes;
   onClick: React.MouseEventHandler<HTMLDivElement>;
 }) => {
-  const { askTitle, comments, askMbti } = askData;
+  const { askContent, comments, askMbti } = askData;
   return (
     <AskCardContainer onClick={onClick}>
       <div>
         <MbtiTag mbti={askMbti} content={askMbti} />
-        <AskTitle>{askTitle}</AskTitle>
+        <AskTitle>{askContent.length > 30 ? askContent.slice(0, 30) + '...' : askContent}</AskTitle>
       </div>
       <Comment> {comments.length}</Comment>
     </AskCardContainer>

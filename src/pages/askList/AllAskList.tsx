@@ -1,5 +1,7 @@
 import React from 'react';
 import { askListTypes, askTypes } from 'types';
+import AskContent from './AskContent';
+import { MainContainer } from './AskList.style';
 
 const AllAskList = () => {
   const [askData, setAskData] = React.useState<askTypes[]>([]);
@@ -9,7 +11,11 @@ const AllAskList = () => {
     setAskData(askList.slice(0, 2));
   }, []);
 
-  return <div>모든유형</div>;
+  return (
+    <MainContainer>
+      {askData && askData.map((data) => <AskContent askData={data} key={data.askId} />)}
+    </MainContainer>
+  );
 };
 
 export default AllAskList;

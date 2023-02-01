@@ -3,8 +3,7 @@
     {
       "askId": 1,
       "authorId": "asdf",
-      "askTitle": "J들아 다 들어와바",
-      "askContent": "너네 정말 만약에 A랑 B랑 C했대, 라고 하면 아 B가 잘못했군. 하는 편이야??? 나 너무 신기해",
+      "askContent": "J들아 다 들어와바 너네 정말 만약에 A랑 B랑 C했대, 라고 하면 아 B가 잘못했군. 하는 편이야??? 나 너무 신기해",
       "authorMbti": "ESTP",
       "askMbti": "ESTJ",
       "Like": 0,
@@ -28,8 +27,7 @@
     {
       "askId": 2,
       "authorId": "asdf",
-      "askTitle": "엔프피 꼬시는 법..",
-      "askContent": "너무 궁금해요..",
+      "askContent": "엔프피 꼬시는 법.. 너무 궁금해요..",
       "authorMbti": "INFJ",
       "askMbti": "ENFP",
       "Like": 2,
@@ -53,7 +51,6 @@
     {
       "askId": 3,
       "authorId": "asdf",
-      "askTitle": "인프제가 생각하는 엔프피",
       "askContent": "엔프피들은 너무 사랑스럽다 댕댕이 같음",
       "authorMbti": "ENFJ",
       "askMbti": "ENFP",
@@ -78,7 +75,6 @@
     {
       "askId": 4,
       "authorId": "asdf",
-      "askTitle": "이분 저한테 관심있는 걸까요?",
       "askContent": "intp는 자기가 관심없으면 선연락 잘 안하나요?",
       "authorMbti": "ENFJ",
       "askMbti": "INTP",
@@ -103,8 +99,7 @@
     {
       "askId": 5,
       "authorId": "asdf",
-      "askTitle": "보통 엔프피는 활발하지 않나요?",
-      "askContent": "근데 제가 소개팅을 했는데 말이 별로 없으시던데...제가 마음에 안드는 걸까요..?",
+      "askContent": "보통 엔프피는 활발하지 않나요? 제가 소개팅을 했는데 말이 별로 없으시던데...제가 마음에 안드는 걸까요..?",
       "authorMbti": "INFJ",
       "askMbti": "ENFP",
       "Like": 0,
@@ -128,8 +123,7 @@
     {
       "askId": 6,
       "authorId": "asdf",
-      "askTitle": "인프제 친구가 있는데",
-      "askContent": "저한테 계속 선연락하는데 이거 그린라이트인가요? 인프제 선약도 안잡는걸로 알고있는데..",
+      "askContent": "인프제 친구가 저한테 계속 선연락하는데 이거 그린라이트인가요? 인프제 선약도 안잡는걸로 알고있는데..",
       "authorMbti": "INTJ",
       "askMbti": "INFJ",
       "Like": 0,
@@ -153,7 +147,6 @@
     {
       "askId": 7,
       "authorId": "asdf",
-      "askTitle": "엔팁의 자존감",
       "askContent": "엔팁의 높은 자존감이 부러워요...",
       "authorMbti": "INFP",
       "askMbti": "ENTP",
@@ -178,8 +171,7 @@
     {
       "askId": 8,
       "authorId": "asdf",
-      "askTitle": "여행은 P끼리는 P끼리 가야한다",
-      "askContent": "진짜 J들은 속터진다..",
+      "askContent": "여행은 P끼리는 P끼리 가야한다 진짜 J들은 속터진다..",
       "authorMbti": "ISTJ",
       "askMbti": "ESTJ",
       "Like": 0,
@@ -203,8 +195,7 @@
     {
       "askId": 9,
       "authorId": "asdf",
-      "askTitle": "잇팁 침대 밖으로 꺼내는 법",
-      "askContent": "아는 사람 있어ㅠㅠㅠㅠ? 하..",
+      "askContent": "잇팁 침대 밖으로 꺼내는 법 아는 사람 있어ㅠㅠㅠㅠ? 하..",
       "authorMbti": "ENFP",
       "askMbti": "ISFP",
       "Like": 0,
@@ -228,7 +219,6 @@
     {
       "askId": 10,
       "authorId": "asdf",
-      "askTitle": "궁금한게 있는데",
       "askContent": "ENFP들은 거절을 잘 못하나요?",
       "authorMbti": "ISTP",
       "askMbti": "ENFP",
