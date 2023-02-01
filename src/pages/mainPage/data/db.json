@@ -1,0 +1,26 @@
+{
+  "askList": [
+    {
+      "askId": 1,
+      "authorId": "asdf",
+      "askTitle": "궁금한게 있는데",
+      "askContent": "ENFP들은 거절을 잘 못하나요?",
+      "mbti": "INTP",
+      "Like": 0,
+      "comments": [
+        { "commentId": "1-a", "commentContent": "댓글", "authorId": "asdf", "mbti": "INTP" }
+      ]
+    },
+    {
+      "askId": 2,
+      "authorId": "asdf",
+      "askTitle": "이거 무슨 심리일까요?",
+      "askContent": "너무 궁금해요..",
+      "mbti": "ENFP",
+      "Like": 2,
+      "comments": [
+        { "commentId": "2-a", "commentContent": "댓글", "authorId": "asdf", "mbti": "INTP" }
+      ]
+    }
+  ]
+}

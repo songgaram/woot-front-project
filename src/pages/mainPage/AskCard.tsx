@@ -1,15 +1,17 @@
 import React from 'react';
 import Button from 'components/button/Button';
 import styled from 'styled-components';
+import { askTypes } from './types';
 
-const AskCard = () => {
+const AskCard = ({ askData }: { askData: askTypes }) => {
+  const { askTitle, comments } = askData;
   return (
     <AskCardContainer>
       <div>
         <Button>ENFP</Button>
-        <AskTitle>이거 무슨 심리 일까요?</AskTitle>
+        <AskTitle>{askTitle}</AskTitle>
       </div>
-      <Comment> 15</Comment>
+      <Comment> {comments.length}</Comment>
     </AskCardContainer>
   );
 };
