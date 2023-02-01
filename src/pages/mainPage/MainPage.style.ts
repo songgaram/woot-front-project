@@ -21,5 +21,6 @@ export const MainHeaderContainer = styled.div`
   p {
     font-size: ${({ theme }) => theme.fontSizes.base};
     color: ${({ theme }) => theme.colors.deepblue};
+    cursor: pointer;
   }
 `;
