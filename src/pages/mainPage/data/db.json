@@ -3,23 +3,241 @@
     {
       "askId": 1,
       "authorId": "asdf",
-      "askTitle": "궁금한게 있는데",
-      "askContent": "ENFP들은 거절을 잘 못하나요?",
-      "mbti": "INTP",
+      "askTitle": "J들아 다 들어와바",
+      "askContent": "너네 정말 만약에 A랑 B랑 C했대, 라고 하면 아 B가 잘못했군. 하는 편이야??? 나 너무 신기해",
+      "mbti": "ESTP",
       "Like": 0,
       "comments": [
-        { "commentId": "1-a", "commentContent": "댓글", "authorId": "asdf", "mbti": "INTP" }
+        {
+          "commentId": "1-a",
+          "askId": 1,
+          "commentContent": "ㅇㅇ 약간 J특이 판단형이라서 그런듯",
+          "authorId": "asdf",
+          "mbti": "INTJ"
+        },
+        {
+          "commentId": "1-b",
+          "askId": 1,
+          "commentContent": "와 너무 신기한걸...",
+          "authorId": "asdf",
+          "mbti": "INFP"
+        }
       ]
     },
     {
       "askId": 2,
       "authorId": "asdf",
-      "askTitle": "이거 무슨 심리일까요?",
+      "askTitle": "엔프피 꼬시는 법..",
       "askContent": "너무 궁금해요..",
       "mbti": "ENFP",
       "Like": 2,
       "comments": [
-        { "commentId": "2-a", "commentContent": "댓글", "authorId": "asdf", "mbti": "INTP" }
+        {
+          "commentId": "2-a",
+          "askId": 2,
+          "commentContent": "먹을거를 많이 주세요",
+          "authorId": "asdf",
+          "mbti": "ENFP"
+        },
+        {
+          "commentId": "3-b",
+          "askId": 2,
+          "commentContent": "리액션을 많이 해주세요",
+          "authorId": "asdf",
+          "mbti": "ENFP"
+        }
+      ]
+    },
+    {
+      "askId": 3,
+      "authorId": "asdf",
+      "askTitle": "인프제가 생각하는 엔프피",
+      "askContent": "엔프피들은 너무 사랑스럽다 댕댕이 같음",
+      "mbti": "ENFP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "3-a",
+          "askId": 3,
+          "commentContent": "마자 ㅎㅎ 엔프피 조아해",
+          "authorId": "asdf",
+          "mbti": "INFJ"
+        },
+        {
+          "commentId": "3-b",
+          "askId": 3,
+          "commentContent": "나는 근데 기빨려..",
+          "authorId": "asdf",
+          "mbti": "ISTP"
+        }
+      ]
+    },
+    {
+      "askId": 4,
+      "authorId": "asdf",
+      "askTitle": "이분 저한테 관심있는 걸까요?",
+      "askContent": "intp는 자기가 관심없으면 선연락 잘 안하나요?",
+      "mbti": "INTP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "4-a",
+          "askId": 4,
+          "commentContent": "ㅇㅇ 관심없으면 안함",
+          "authorId": "asdf",
+          "mbti": "INTP"
+        },
+        {
+          "commentId": "4-b",
+          "askId": 4,
+          "commentContent": "하면 진짜 찐사랑이예요",
+          "authorId": "asdf",
+          "mbti": "INTP"
+        }
+      ]
+    },
+    {
+      "askId": 5,
+      "authorId": "asdf",
+      "askTitle": "보통 엔프피는 활발하지 않나요?",
+      "askContent": "근데 제가 소개팅을 했는데 말이 별로 없으시던데...제가 마음에 안드는 걸까요..?",
+      "mbti": "ENFP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "5-a",
+          "askId": 5,
+          "commentContent": "음...너무 어색해서 그런걸 지도",
+          "authorId": "asdf",
+          "mbti": "ESTJ"
+        },
+        {
+          "commentId": "5-b",
+          "askId": 5,
+          "commentContent": "그래도 아무말 대잔치라도 하지 않나요?",
+          "authorId": "asdf",
+          "mbti": "ISFP"
+        }
+      ]
+    },
+    {
+      "askId": 6,
+      "authorId": "asdf",
+      "askTitle": "인프제 친구가 있는데",
+      "askContent": "저한테 계속 선연락하는데 이거 그린라이트인가요? 인프제 선약도 안잡는걸로 알고있는데..",
+      "mbti": "INFJ",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "6-a",
+          "askId": 6,
+          "commentContent": "넹 인프제는 절대 선연략 안해요 님이 좋은가봐요",
+          "authorId": "asdf",
+          "mbti": "INFJ"
+        },
+        {
+          "commentId": "6-b",
+          "askId": 6,
+          "commentContent": "추카해요",
+          "authorId": "asdf",
+          "mbti": "INFJ"
+        }
+      ]
+    },
+    {
+      "askId": 7,
+      "authorId": "asdf",
+      "askTitle": "엔팁의 자존감",
+      "askContent": "엔팁의 높은 자존감이 부러워요...",
+      "mbti": "ENTP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "7-a",
+          "askId": 7,
+          "commentContent": "ㅎㅎ",
+          "authorId": "asdf",
+          "mbti": "ENTP"
+        },
+        {
+          "commentId": "7-b",
+          "askId": 7,
+          "commentContent": "ㅎㅎㅎㅎ",
+          "authorId": "asdf",
+          "mbti": "ENTP"
+        }
+      ]
+    },
+    {
+      "askId": 8,
+      "authorId": "asdf",
+      "askTitle": "여행은 P끼리는 P끼리 가야한다",
+      "askContent": "진짜 J들은 속터진다..",
+      "mbti": "ESTJ",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "8-a",
+          "askId": 8,
+          "commentContent": "인정..",
+          "authorId": "asdf",
+          "mbti": "ENTJ"
+        },
+        {
+          "commentId": "8-b",
+          "askId": 8,
+          "commentContent": "우리가 어때서!",
+          "authorId": "asdf",
+          "mbti": "ISFP"
+        }
+      ]
+    },
+    {
+      "askId": 9,
+      "authorId": "asdf",
+      "askTitle": "잇팁 침대 밖으로 꺼내는 법",
+      "askContent": "아는 사람 있어ㅠㅠㅠㅠ? 하..",
+      "mbti": "ISFP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "9-a",
+          "askId": 9,
+          "commentContent": "불가능해",
+          "authorId": "asdf",
+          "mbti": "ISFP"
+        },
+        {
+          "commentId": "9-b",
+          "askId": 9,
+          "commentContent": "침대가 최고야",
+          "authorId": "asdf",
+          "mbti": "ISFP"
+        }
+      ]
+    },
+    {
+      "askId": 10,
+      "authorId": "asdf",
+      "askTitle": "궁금한게 있는데",
+      "askContent": "ENFP들은 거절을 잘 못하나요?",
+      "mbti": "ENFP",
+      "Like": 0,
+      "comments": [
+        {
+          "commentId": "10-a",
+          "askId": 10,
+          "commentContent": "완전 못함 ㅠㅠㅠㅠ",
+          "authorId": "asdf",
+          "mbti": "ENFP"
+        },
+        {
+          "commentId": "10-b",
+          "askId": 10,
+          "commentContent": "다들 착한듯",
+          "authorId": "asdf",
+          "mbti": "ENTP"
+        }
       ]
     }
   ]

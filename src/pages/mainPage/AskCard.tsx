@@ -4,11 +4,11 @@ import styled from 'styled-components';
 import { askTypes } from './types';
 
 const AskCard = ({ askData }: { askData: askTypes }) => {
-  const { askTitle, comments } = askData;
+  const { askTitle, comments, mbti } = askData;
   return (
     <AskCardContainer>
       <div>
-        <Button>ENFP</Button>
+        <Button>{mbti}</Button>
         <AskTitle>{askTitle}</AskTitle>
       </div>
       <Comment> {comments.length}</Comment>
