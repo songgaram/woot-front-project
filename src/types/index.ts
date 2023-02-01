@@ -7,7 +7,8 @@ export interface askTypes {
   authorId: string;
   askTitle: string;
   askContent: string;
-  mbti: string;
+  authorMbti: string;
+  askMbti: string;
   Like: number;
   comments: commentTypes[];
 }
@@ -16,5 +17,5 @@ interface commentTypes {
   commentId: string;
   commentContent: string;
   authorId: string;
-  mbti: string;
+  authorMbti: string;
 }

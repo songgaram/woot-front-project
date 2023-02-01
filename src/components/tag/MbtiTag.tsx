@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { getColorCode } from './utils';
 
-const MbtiTag = ({ mbti, children }: { mbti: string; children: React.ReactNode }) => {
+const MbtiTag = ({ mbti, content }: { mbti: string; content: string }) => {
   const colorCode = getColorCode(mbti);
-  return <Button colorCode={colorCode}>{mbti}</Button>;
+  return <Button colorCode={colorCode}>{content}</Button>;
 };
 
 const Button = styled.button<{ colorCode: string }>`
