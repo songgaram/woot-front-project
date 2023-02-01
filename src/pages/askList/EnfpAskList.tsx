@@ -11,7 +11,7 @@ const EnfpAskList = () => {
     setEnfpAsk(enfpAskList);
   }, []);
 
-  return <div>모든유형</div>;
+  return <div>ENFP유형</div>;
 };
 
 export default EnfpAskList;

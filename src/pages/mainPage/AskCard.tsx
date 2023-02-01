@@ -3,10 +3,16 @@ import MbtiTag from 'components/tag/MbtiTag';
 import styled from 'styled-components';
 import { askTypes } from 'types';
 
-const AskCard = ({ askData }: { askData: askTypes }) => {
+const AskCard = ({
+  askData,
+  onClick,
+}: {
+  askData: askTypes;
+  onClick: React.MouseEventHandler<HTMLDivElement>;
+}) => {
   const { askTitle, comments, mbti } = askData;
   return (
-    <AskCardContainer>
+    <AskCardContainer onClick={onClick}>
       <div>
         <MbtiTag mbti={mbti}>{mbti}</MbtiTag>
         <AskTitle>{askTitle}</AskTitle>
