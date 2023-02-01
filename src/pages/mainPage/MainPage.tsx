@@ -3,8 +3,8 @@ import { MainContainer, MainContent, MainHeaderContainer } from './MainPage.styl
 import Header from 'components/header/Header';
 import AskCard from './AskCard';
 import db from './data/db.json';
-import { askListTypes, askTypes } from './types';
-import getEnfpAskList from './utils/getEnfpAskList';
+import { askListTypes, askTypes } from 'types';
+import getEnfpAskList from 'utils/getEnfpAskList';
 
 const MainPage = () => {
   const [askData, setAskData] = React.useState<askTypes[]>([]);

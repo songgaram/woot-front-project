@@ -1,7 +1,7 @@
 import React from 'react';
 import MbtiTag from 'components/tag/MbtiTag';
 import styled from 'styled-components';
-import { askTypes } from './types';
+import { askTypes } from 'types';
 
 const AskCard = ({ askData }: { askData: askTypes }) => {
   const { askTitle, comments, mbti } = askData;
